@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foodie</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" id="nav">
+          <a href="<%= root_path %>"><span class="links">Home Page</span>
+            <i class="fa fa-ellipsis-v"></i>
+            <a href="<%= album_path %>"><span class="links">Albums</span>
+            <i class="fa fa-ellipsis-v"></i>
+            <a href="<%= restaurants_path %>"><span class="links">Restaurants</span></a>
+            <i class="fa fa-ellipsis-v"></i>
+            <a href="<%= places_path %>"><span class="links">Places</span></a>
+        </div>
+      </nav>
+  </header>
+  <section class="container">
+    <div class='row'>
+      <div class='col-sm-12'>
+        <%= yield %>
+      </div>
+    </div>
+  </section>
+  <footer>
+  </footer>
+</body>
+</html>

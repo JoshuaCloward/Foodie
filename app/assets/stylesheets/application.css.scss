@@ -1,0 +1,43 @@
+@import "bootstrap";
+@import 'font-awesome';
+@import 'fullcalendar';
+@import 'touchTouch';
+@import 'chosen';
+
+
+body{
+  padding-top: 70px;
+}
+
+.links{
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.fa{
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.links:hover{
+  color: #aaaaaa;
+  text-decoration: none;
+
+}
+
+.container{
+  margin-top: 15px;
+}
+
+.album{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.item{
+  width: 100%;
+  margin: 0 auto;
+}
