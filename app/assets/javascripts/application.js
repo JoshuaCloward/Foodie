@@ -73,7 +73,10 @@ $(function() {
   });
 });
 
-$('#album a').touchTouch();
+
+$(function(){
+  $('#album a').touchTouch();
+});
 
     // $.getJSON('/places',function(data){
     //   console.log(data);
