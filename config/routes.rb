@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+
   resources :restaurants do
     resources :noms
   end
 
+    resources :noms, only: [] do
+      resources :photos
+    end
 
   resources :events
 

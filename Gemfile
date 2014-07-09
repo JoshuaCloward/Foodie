@@ -10,6 +10,9 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
+gem 'carrierwave'
+gem 'mini_magick'
+
 gem 'kaminari' #used for pagination
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -37,6 +40,7 @@ end
 gem 'rails_12factor', group: :production
 gem 'chosen-rails'
 gem 'thin'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

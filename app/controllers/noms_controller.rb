@@ -73,6 +73,6 @@ class NomsController < ApplicationController
     end
     # Never trust parameters from the scary internet, only allow the white list through.
     def nom_params
-      params.require(:nom).permit(:name, :delicious)
+      params.require(:nom).permit(:name, :delicious, :image)
     end
 end
